@@ -87,9 +87,9 @@ extension DirectionHelpers on Direction {
   Offset toUnitOffset() {
     switch (this) {
       case Direction.north:
-        return const Offset(0, -1);
-      case Direction.south:
         return const Offset(0, 1);
+      case Direction.south:
+        return const Offset(0, -1);
       case Direction.east:
         return const Offset(1, 0);
       case Direction.west:
@@ -195,6 +195,7 @@ final List<PathRoute> pathRoutes = [
       PathPoint(distanceToNextCm: 60.15),
       PathPoint(distanceToNextCm: 60.15),
       PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
       PathPoint(distanceToNextCm: 38.0),
       PathPoint(distanceToNextCm: 30.15),
       PathPoint(distanceToNextCm: 57.8),
@@ -282,6 +283,7 @@ final List<PathRoute> pathRoutes = [
       PathPoint(distanceToNextCm: 60.15),
       PathPoint(distanceToNextCm: 58.2),
       PathPoint(distanceToNextCm: 30.9),
+      PathPoint(distanceToNextCm: 60.15),
       PathPoint(distanceToNextCm: 60.15),
       PathPoint(distanceToNextCm: 60.15),
       PathPoint(distanceToNextCm: 60.15),
@@ -489,7 +491,22 @@ final List<PathRoute> pathRoutes = [
     to: 'F',
     direction: Direction.east,
     points: const [
-      
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 56.65),
+      PathPoint(distanceToNextCm: 30.15),
+      PathPoint(distanceToNextCm: 16.0),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 30.15),
+      PathPoint(distanceToNextCm: 57.69),
+      PathPoint(distanceToNextCm: 60.15),
     ],
   ),
   PathRoute(
@@ -497,6 +514,44 @@ final List<PathRoute> pathRoutes = [
     to: 'I',
     direction: Direction.west,
     points: const [
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 55.6),
+      PathPoint(distanceToNextCm: 30.15),
+      PathPoint(distanceToNextCm: 24.25),
+      PathPoint(distanceToNextCm: 30.15),
+      PathPoint(distanceToNextCm: 47.2),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
     ],
   ),
   PathRoute(
@@ -504,6 +559,31 @@ final List<PathRoute> pathRoutes = [
     to: 'J',
     direction: Direction.north,
     points: const [
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 57.2),
+      PathPoint(distanceToNextCm: 30.15),
+      PathPoint(distanceToNextCm: 56.5),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
     ],
   ),
   PathRoute(
@@ -511,6 +591,31 @@ final List<PathRoute> pathRoutes = [
     to: 'K',
     direction: Direction.north,
     points: const [
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 58.5),
+      PathPoint(distanceToNextCm: 30.15),
+      PathPoint(distanceToNextCm: 56.1),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
+      PathPoint(distanceToNextCm: 60.15),
     ],
   ),
 ];
@@ -622,19 +727,23 @@ class _RadiomapAppState extends State<RadiomapApp> {
       final file = File('${directory.path}/radiomap_$timestamp.csv');
       await file.writeAsString(csv);
 
-      if (mounted) {
-        await Share.shareXFiles(
-          [XFile(file.path)],
-          text: 'Wi-Fi Radiomap export',
-          subject: 'Wi-Fi Radiomap CSV',
-        );
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Select an app to share the CSV file.'),
-            duration: Duration(seconds: 3),
-          ),
-        );
+      if (!mounted) {
+        return;
       }
+      await Share.shareXFiles(
+        [XFile(file.path)],
+        text: 'Wi-Fi Radiomap export',
+        subject: 'Wi-Fi Radiomap CSV',
+      );
+      if (!mounted) {
+        return;
+      }
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Select an app to share the CSV file.'),
+          duration: Duration(seconds: 3),
+        ),
+      );
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -739,11 +848,16 @@ class _DiscoveryScreenState extends State<DiscoveryScreen> {
     return SafeArea(
       child: Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
+          ConstrainedBox(
+            constraints: BoxConstraints(
+              maxHeight: MediaQuery.of(context).size.height * 0.35,
+            ),
+            child: SingleChildScrollView(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
                 Text(
                   'Phase 1: Discovery',
                   style: Theme.of(context).textTheme.headlineSmall,
@@ -771,7 +885,9 @@ class _DiscoveryScreenState extends State<DiscoveryScreen> {
               ],
             ),
           ),
-          Padding(
+        ),
+      ),
+      Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             child: SizedBox(
               width: double.infinity,
@@ -841,8 +957,10 @@ class MeasurementScreen extends StatefulWidget {
 
 class _MeasurementScreenState extends State<MeasurementScreen> {
   static const int numScansPerMeasurement = 10;
-  final TextEditingController xController = TextEditingController();
-  final TextEditingController yController = TextEditingController();
+  static const int pathPointScanCount = 3;
+  static const double routeValidationToleranceCm = 150.0;
+
+  // Manual coordinate entry removed — guided path coordinates are used instead.
   List<WiFiNetwork> currentScan = [];
   bool isScanning = false;
   int currentScanCount = 0;
@@ -853,6 +971,55 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
   bool pathActive = false;
   int currentPathIndex = 0;
   bool currentPointScanned = false;
+  List<String> routeSummaries = [];
+  bool hasRouteValidationErrors = false;
+  Set<String> newBssids = {};
+  int currentPathPointScanCount = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    _validateRouteSummaries();
+  }
+
+  void _validateRouteSummaries() {
+    routeSummaries = [];
+    hasRouteValidationErrors = false;
+
+    for (final route in pathRoutes) {
+      final start = mainPointPositions[route.from];
+      final expectedEnd = mainPointPositions[route.to];
+      final computedEnd = computeRouteEndPosition(route);
+
+      if (start == null || expectedEnd == null) {
+        routeSummaries.add('${route.from}→${route.to}: missing anchor position');
+        hasRouteValidationErrors = true;
+        continue;
+      }
+
+      final diff = (computedEnd - expectedEnd).distance;
+      final status = diff <= routeValidationToleranceCm ? 'OK' : 'ERROR';
+      if (status == 'ERROR') {
+        hasRouteValidationErrors = true;
+      }
+
+      routeSummaries.add(
+        '${route.from}→${route.to}: computed (${computedEnd.dx.toStringAsFixed(1)}, ${computedEnd.dy.toStringAsFixed(1)}) '
+        'expected (${expectedEnd.dx.toStringAsFixed(1)}, ${expectedEnd.dy.toStringAsFixed(1)}) '
+        '(Δ ${diff.toStringAsFixed(1)} cm) $status',
+      );
+    }
+  }
+
+  void _detectNewBssids(List<WiFiNetwork> scan) {
+    final foundBssids = scan.map((network) => network.bssid).toSet();
+    final newFound = foundBssids.difference(widget.discoveredBSSIDs);
+    if (newFound.isNotEmpty) {
+      setState(() {
+        newBssids.addAll(newFound);
+      });
+    }
+  }
 
   Future<void> _performScan() async {
     setState(() {
@@ -890,15 +1057,18 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
 
       // Get scanned results
       final results = await WiFiScan.instance.getScannedResults();
+      final scanResults = results
+          .map((ap) => WiFiNetwork(
+                bssid: ap.bssid,
+                ssid: ap.ssid,
+                level: ap.level,
+              ))
+          .toList();
+
+      _detectNewBssids(scanResults);
 
       setState(() {
-        currentScan = results
-            .map((ap) => WiFiNetwork(
-                  bssid: ap.bssid,
-                  ssid: ap.ssid,
-                  level: ap.level,
-                ))
-            .toList();
+        currentScan = scanResults;
       });
     } catch (e) {
       if (mounted) {
@@ -918,15 +1088,18 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
   /// This helps smooth out temporary signal drops or missed packets by
   /// taking `numScansPerMeasurement` scans and averaging each BSSID's RSSI.
   Future<void> _performMultipleScanAndAverage() async {
-    final x = double.tryParse(xController.text);
-    final y = double.tryParse(yController.text);
-
-    if (x == null || y == null) {
+    // This flow now requires guided path mode: use the current guided
+    // path point coordinates as the measurement location.
+    if (!pathActive || selectedRoute == null) {
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please enter valid X and Y coordinates (cm)')),
+        const SnackBar(content: Text('Start a guided path first to record measurements.')),
       );
       return;
     }
+
+    final pointPosition = computePathPointPosition(selectedRoute!, currentPathIndex);
+    final x = pointPosition.dx;
+    final y = pointPosition.dy;
 
     setState(() {
       isScanning = true;
@@ -971,6 +1144,8 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
                   level: ap.level,
                 ))
             .toList();
+
+        _detectNewBssids(scanResults);
 
         setState(() {
           scans.add(scanResults);
@@ -1021,9 +1196,6 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
           const SnackBar(content: Text('Measurement averaged and recorded!')),
         );
 
-        // Clear inputs
-        xController.clear();
-        yController.clear();
         setState(() {
           currentScan = [];
           scans = [];
@@ -1071,7 +1243,8 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
 
   /// Scan the Wi-Fi network at the current guided path point.
   ///
-  /// This does not advance to the next point until the user presses Next.
+  /// This performs multiple scans and averages the RSSI values for better
+  /// accuracy before the point is saved.
   Future<void> _scanPathPoint() async {
     if (selectedRoute == null) {
       return;
@@ -1079,41 +1252,69 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
 
     setState(() {
       isScanning = true;
+      currentPathPointScanCount = 0;
+      scans = [];
+      currentScan = [];
+      currentPointScanned = false;
     });
 
     try {
-      final canScan = await WiFiScan.instance.canStartScan(askPermissions: true);
-      if (canScan != CanStartScan.yes) {
-        if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('Cannot scan: $canScan')),
-          );
+      for (var i = 0; i < pathPointScanCount; i++) {
+        final canScan = await WiFiScan.instance.canStartScan(askPermissions: true);
+        if (canScan != CanStartScan.yes) {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text('Cannot scan: $canScan')),
+            );
+          }
+          return;
         }
-        return;
-      }
 
-      await WiFiScan.instance.startScan();
-      final canGetResults = await WiFiScan.instance.canGetScannedResults(askPermissions: true);
-      if (canGetResults != CanGetScannedResults.yes) {
-        if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('Cannot get results: $canGetResults')),
-          );
+        await WiFiScan.instance.startScan();
+        final canGetResults = await WiFiScan.instance.canGetScannedResults(askPermissions: true);
+        if (canGetResults != CanGetScannedResults.yes) {
+          if (mounted) {
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(content: Text('Cannot get results: $canGetResults')),
+            );
+          }
+          return;
         }
-        return;
-      }
 
-      final results = await WiFiScan.instance.getScannedResults();
-      setState(() {
-        currentScan = results
+        final results = await WiFiScan.instance.getScannedResults();
+        final scanResults = results
             .map((ap) => WiFiNetwork(
                   bssid: ap.bssid,
                   ssid: ap.ssid,
                   level: ap.level,
                 ))
             .toList();
+
+        _detectNewBssids(scanResults);
+
+        setState(() {
+          scans.add(scanResults);
+          currentPathPointScanCount = i + 1;
+          currentScan = scanResults;
+        });
+
+        if (i < pathPointScanCount - 1) {
+          await Future.delayed(const Duration(milliseconds: 500));
+        }
+      }
+
+      final averagedScan = _averageScansToNetworkList(scans);
+      setState(() {
+        currentScan = averagedScan;
         currentPointScanned = true;
+        currentPathPointScanCount = 0;
       });
+
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Averaged $pathPointScanCount scans for this point.')),
+        );
+      }
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -1142,6 +1343,38 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
     return map;
   }
 
+  List<WiFiNetwork> _averageScansToNetworkList(List<List<WiFiNetwork>> scans) {
+    final values = <String, List<int>>{};
+    final ssidByBssid = <String, String>{};
+
+    for (final scan in scans) {
+      for (final network in scan) {
+        values.putIfAbsent(network.bssid, () => []).add(network.level);
+        ssidByBssid[network.bssid] = network.ssid;
+      }
+    }
+
+    final averaged = <WiFiNetwork>[];
+    for (final bssid in values.keys.toList()..sort()) {
+      final levels = values[bssid]!;
+      final avg = (levels.reduce((a, b) => a + b) / levels.length).round();
+      averaged.add(WiFiNetwork(
+        bssid: bssid,
+        ssid: ssidByBssid[bssid] ?? 'N/A',
+        level: avg,
+      ));
+    }
+
+    for (final bssid in widget.discoveredBSSIDs) {
+      if (!values.containsKey(bssid)) {
+        averaged.add(WiFiNetwork(bssid: bssid, ssid: 'N/A', level: -120));
+      }
+    }
+
+    averaged.sort((a, b) => a.bssid.compareTo(b.bssid));
+    return averaged;
+  }
+
   /// Save the current path point measurement and move to the next one.
   ///
   /// The current point must be scanned before moving to the next point.
@@ -1165,7 +1398,7 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
       ),
     );
 
-    final isLastPoint = currentPathIndex == selectedRoute!.points.length - 1;
+    final isLastPoint = currentPathIndex == selectedRoute!.points.length;
     if (isLastPoint) {
       setState(() {
         pathActive = false;
@@ -1211,63 +1444,18 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
     });
   }
 
-  /// Record a single measurement from the current manual coordinate inputs.
-  ///
-  /// Use this when you want to record one point without guided path mode.
-  void _recordMeasurement() {
-    final x = double.tryParse(xController.text);
-    final y = double.tryParse(yController.text);
-
-    if (x == null || y == null) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please enter valid X and Y coordinates (cm)')),
-      );
-      return;
-    }
-
-    if (currentScan.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Please scan networks first')),
-      );
-      return;
-    }
-
-    // Create RSSI map for all discovered BSSIDs
-    Map<String, int> bssidRssiMap = {};
-    for (var bssid in widget.discoveredBSSIDs) {
-      final network = currentScan.firstWhere(
-        (n) => n.bssid == bssid,
-        orElse: () => WiFiNetwork(bssid: bssid, ssid: 'N/A', level: -120),
-      );
-      bssidRssiMap[bssid] = network.level;
-    }
-
-    widget.onAddMeasurement(
-      ScanResult(
-        x: x,
-        y: y,
-        bssidRssiMap: bssidRssiMap,
-      ),
-    );
-
-    // Clear inputs
-    xController.clear();
-    yController.clear();
-    setState(() {
-      currentScan = [];
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     return SafeArea(
       child: Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
+          Flexible(
+            child: SingleChildScrollView(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
                 Text(
                   'Phase 2: Measurement',
                   style: Theme.of(context).textTheme.headlineSmall,
@@ -1277,172 +1465,234 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
                   'Measurements: ${widget.measurements.length}',
                   style: Theme.of(context).textTheme.titleMedium,
                 ),
-                const SizedBox(height: 16),
-                Container(
-                  width: double.infinity,
-                  padding: const EdgeInsets.all(12.0),
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.surfaceVariant,
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Guided path scan',
-                        style: Theme.of(context).textTheme.titleMedium,
-                      ),
-                      const SizedBox(height: 8),
-                      if (!pathActive) ...[
-                        DropdownButtonFormField<String>(
-                          value: selectedStartPoint,
-                          decoration: const InputDecoration(
-                            labelText: 'From',
-                            border: OutlineInputBorder(),
-                          ),
-                          items: pathRoutes
-                              .map((route) => route.from)
-                              .toSet()
-                              .toList()
-                              .map((label) => DropdownMenuItem(
-                                    value: label,
-                                    child: Text(label),
-                                  ))
-                              .toList(),
-                          onChanged: (value) {
-                            if (value == null) return;
-                            setState(() {
-                              selectedStartPoint = value;
-                              final options = _availableEndPoints(value);
-                              selectedEndPoint = options.isNotEmpty ? options.first : null;
-                            });
-                          },
-                        ),
-                        const SizedBox(height: 8),
-                        DropdownButtonFormField<String>(
-                          value: selectedEndPoint,
-                          decoration: const InputDecoration(
-                            labelText: 'To',
-                            border: OutlineInputBorder(),
-                          ),
-                          items: _availableEndPoints(selectedStartPoint)
-                              .map((label) => DropdownMenuItem(
-                                    value: label,
-                                    child: Text(label),
-                                  ))
-                              .toList(),
-                          onChanged: (value) {
-                            setState(() {
-                              selectedEndPoint = value;
-                            });
-                          },
-                        ),
-                        const SizedBox(height: 12),
-                        SizedBox(
-                          width: double.infinity,
-                          child: ElevatedButton(
-                            onPressed: _startPath,
-                            child: const Text('Start Path'),
-                          ),
-                        ),
-                      ] else ...[
+                const SizedBox(height: 12),
+                if (routeSummaries.isNotEmpty) ...[
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(12.0),
+                    decoration: BoxDecoration(
+                      color: hasRouteValidationErrors
+                          ? Colors.red.shade50
+                          : Colors.green.shade50,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
                         Text(
-                          'Path: ${selectedRoute?.from} → ${selectedRoute?.to}',
-                          style: Theme.of(context).textTheme.bodyLarge,
+                          'Route validation',
+                          style: Theme.of(context).textTheme.titleMedium,
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          'Point ${currentPathIndex + 1} of ${selectedRoute?.points.length}',
+                          hasRouteValidationErrors
+                              ? 'Some routes differ from anchors by more than ${routeValidationToleranceCm.toInt()} cm.'
+                              : 'All routes validate within ${routeValidationToleranceCm.toInt()} cm.',
                           style: Theme.of(context).textTheme.bodyMedium,
                         ),
-                        const SizedBox(height: 4),
-                        Text(
-                          selectedRoute == null
-                              ? ''
-                              : 'Current point: point ${currentPathIndex + 1} at (${computePathPointPosition(selectedRoute!, currentPathIndex).dx.toStringAsFixed(1)} , ${computePathPointPosition(selectedRoute!, currentPathIndex).dy.toStringAsFixed(1)}) cm',
-                          style: Theme.of(context).textTheme.bodySmall,
-                        ),
-                        const SizedBox(height: 12),
-                        Row(
-                          children: [
-                            Expanded(
-                              child: ElevatedButton(
-                                onPressed: isScanning ? null : _scanPathPoint,
-                                child: const Text('Scan Current Point'),
-                              ),
-                            ),
-                            const SizedBox(width: 12),
-                            Expanded(
-                              child: ElevatedButton(
-                                onPressed: currentPointScanned ? _nextPathPoint : null,
-                                child: const Text('Next Point'),
-                              ),
-                            ),
-                          ],
-                        ),
                         const SizedBox(height: 8),
-                        Text(
-                          currentPointScanned
-                              ? 'Scanned. Press Next Point to save and proceed.'
-                              : 'Scan the current point before moving to the next.',
-                          style: Theme.of(context).textTheme.bodySmall,
-                        ),
-                        const SizedBox(height: 12),
                         SizedBox(
-                          width: double.infinity,
-                          child: OutlinedButton(
-                            onPressed: () {
-                              setState(() {
-                                pathActive = false;
-                                selectedRoute = null;
-                                currentPathIndex = 0;
-                                currentPointScanned = false;
-                                currentScan = [];
-                              });
-                            },
-                            child: const Text('Cancel Path'),
+                          height: 120,
+                          child: SingleChildScrollView(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: routeSummaries
+                                  .map(
+                                    (summary) => Padding(
+                                      padding: const EdgeInsets.only(bottom: 4.0),
+                                      child: Text(
+                                        summary,
+                                        style: Theme.of(context).textTheme.bodySmall,
+                                      ),
+                                    ),
+                                  )
+                                  .toList(),
+                            ),
                           ),
                         ),
-                      ]
-                    ],
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                ],
+                if (newBssids.isNotEmpty) ...[
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(12.0),
+                    decoration: BoxDecoration(
+                      color: Colors.orange.shade50,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Text(
+                      'Warning: new access point(s) discovered during measurement: ${newBssids.join(', ')}.\nThese were not found in discovery phase.',
+                      style: Theme.of(context).textTheme.bodyMedium,
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+                ],
+                ConstrainedBox(
+                  constraints: BoxConstraints(
+                    maxHeight: MediaQuery.of(context).size.height * 0.55,
+                  ),
+                  child: SingleChildScrollView(
+                    child: Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(12.0),
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).colorScheme.surfaceContainerHighest,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Guided path scan',
+                            style: Theme.of(context).textTheme.titleMedium,
+                          ),
+                          const SizedBox(height: 8),
+                          // If no active path, show the route selectors and Start button.
+                          if (!pathActive)
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                DropdownButtonFormField<String>(
+                                  initialValue: selectedStartPoint,
+                                  decoration: const InputDecoration(
+                                    labelText: 'From',
+                                    border: OutlineInputBorder(),
+                                  ),
+                                  items: pathRoutes
+                                      .map((route) => route.from)
+                                      .toSet()
+                                      .toList()
+                                      .map((label) => DropdownMenuItem(
+                                            value: label,
+                                            child: Text(label),
+                                          ))
+                                      .toList(),
+                                  onChanged: (value) {
+                                    if (value == null) return;
+                                    setState(() {
+                                      selectedStartPoint = value;
+                                      final options = _availableEndPoints(value);
+                                      selectedEndPoint = options.isNotEmpty ? options.first : null;
+                                    });
+                                  },
+                                ),
+                                const SizedBox(height: 8),
+                                DropdownButtonFormField<String>(
+                                  initialValue: selectedEndPoint,
+                                  decoration: const InputDecoration(
+                                    labelText: 'To',
+                                    border: OutlineInputBorder(),
+                                  ),
+                                  items: _availableEndPoints(selectedStartPoint)
+                                      .map((label) => DropdownMenuItem(
+                                            value: label,
+                                            child: Text(label),
+                                          ))
+                                      .toList(),
+                                  onChanged: (value) {
+                                    setState(() {
+                                      selectedEndPoint = value;
+                                    });
+                                  },
+                                ),
+                                const SizedBox(height: 12),
+                                SizedBox(
+                                  width: double.infinity,
+                                  child: ElevatedButton(
+                                    onPressed: _startPath,
+                                    child: const Text('Start Path'),
+                                  ),
+                                ),
+                              ],
+                            )
+                          else
+                            // If a path is active, show the guided path controls.
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'Path: ${selectedRoute?.from} → ${selectedRoute?.to}',
+                                  style: Theme.of(context).textTheme.bodyLarge,
+                                ),
+                                const SizedBox(height: 8),
+                                Text(
+                                  'Point ${currentPathIndex + 1} of ${(selectedRoute?.points.length ?? 0) + 1}',
+                                  style: Theme.of(context).textTheme.bodyMedium,
+                                ),
+                                const SizedBox(height: 4),
+                                Text(
+                                  selectedRoute == null
+                                      ? ''
+                                      : 'Current point: point ${currentPathIndex + 1} at (${computePathPointPosition(selectedRoute!, currentPathIndex).dx.toStringAsFixed(1)} , ${computePathPointPosition(selectedRoute!, currentPathIndex).dy.toStringAsFixed(1)}) cm',
+                                  style: Theme.of(context).textTheme.bodySmall,
+                                ),
+                                const SizedBox(height: 12),
+                                Row(
+                                  children: [
+                                    Expanded(
+                                      child: ElevatedButton(
+                                        onPressed: isScanning ? null : _scanPathPoint,
+                                        child: const Text('Scan Current Point'),
+                                      ),
+                                    ),
+                                    const SizedBox(width: 12),
+                                    Expanded(
+                                      child: ElevatedButton(
+                                        onPressed: currentPointScanned ? _nextPathPoint : null,
+                                        child: const Text('Next Point'),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                const SizedBox(height: 8),
+                                Text(
+                                  currentPointScanned
+                                      ? 'Scanned. Press Next Point to save and proceed.'
+                                      : 'Scan the current point before moving to the next.',
+                                  style: Theme.of(context).textTheme.bodySmall,
+                                ),
+                                const SizedBox(height: 12),
+                                SizedBox(
+                                  width: double.infinity,
+                                  child: OutlinedButton(
+                                    onPressed: () {
+                                      setState(() {
+                                        pathActive = false;
+                                        selectedRoute = null;
+                                        currentPathIndex = 0;
+                                        currentPointScanned = false;
+                                        currentScan = [];
+                                      });
+                                    },
+                                    child: const Text('Cancel Path'),
+                                  ),
+                                ),
+                              ],
+                            ),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
                 const SizedBox(height: 16),
                 // Coordinate inputs
-                Row(
-                  children: [
-                    Expanded(
-                      child: TextField(
-                        controller: xController,
-                        keyboardType: const TextInputType.numberWithOptions(
-                          decimal: true,
-                          signed: true,
-                        ),
-                        decoration: const InputDecoration(
-                          labelText: 'X (cm)',
-                          hintText: 'e.g., 123.4',
-                          border: OutlineInputBorder(),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: TextField(
-                        controller: yController,
-                        keyboardType: const TextInputType.numberWithOptions(
-                          decimal: true,
-                          signed: true,
-                        ),
-                        decoration: const InputDecoration(
-                          labelText: 'Y (cm)',
-                          hintText: 'e.g., 45.0',
-                          border: OutlineInputBorder(),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 12),
+                // Manual coordinate inputs removed — use Guided Path scanning.
+                if (pathActive && selectedRoute != null) ...[
+                  Text(
+                    'Current point coords: (${computePathPointPosition(selectedRoute!, currentPathIndex).dx.toStringAsFixed(1)}, ${computePathPointPosition(selectedRoute!, currentPathIndex).dy.toStringAsFixed(1)}) cm',
+                    style: Theme.of(context).textTheme.bodyMedium,
+                  ),
+                  const SizedBox(height: 12),
+                ] else ...[
+                  Text(
+                    'Manual coordinate entry removed — start a Guided Path to record points.',
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                  const SizedBox(height: 12),
+                ],
                 SizedBox(
                   width: double.infinity,
                   child: ElevatedButton.icon(
@@ -1460,13 +1710,15 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
                       backgroundColor: Colors.green,
                     ),
                     child: Text(isScanning
-                        ? 'Recording (${currentScanCount}/$numScansPerMeasurement)'
+                        ? 'Recording ($currentScanCount/$numScansPerMeasurement)'
                         : 'Record Measurement (avg $numScansPerMeasurement scans)'),
                   ),
                 ),
               ],
             ),
           ),
+        ),
+      ),
           Expanded(
             child: currentScan.isEmpty
                 ? Center(
@@ -1527,8 +1779,6 @@ class _MeasurementScreenState extends State<MeasurementScreen> {
 
   @override
   void dispose() {
-    xController.dispose();
-    yController.dispose();
     super.dispose();
   }
 }

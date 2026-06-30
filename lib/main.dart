@@ -11,8 +11,7 @@ void main() {
 
 /// The root widget of the application.
 ///
-/// This sets up the app theme and disables the debug banner.
-/// It also routes the user to the main Radiomap screen.
+/// routes the user to the main Radiomap screen.
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
